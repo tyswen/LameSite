@@ -1,1 +1,60 @@
+#para1 {
+  text-align: center;
+  font-size: 70px;
+  color: red;
+}
 
+#para2 {
+  text-align: center;
+  font-size: 40px;
+  color: darkblue;
+}
+
+#questiontextboxid
+{
+    height:200px;
+    width: 20%;
+}
+
+.para1 {
+  font-family: Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 20px;
+  color: blue;
+}
+
+.az {
+  text-align: center;
+  color: green;
+}
+
+aside {
+  position: relative;
+  width: 25%;
+  padding-left: 5px;
+  margin-left: 5px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+table {
+  width: 25%;
+  text-align: left;
+  background-color: mistyrose;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+
+img {
+  position: absolute; 
+}
+
+.listCenter {
+  text-align: center;
+}
+
+a:hover {
+  color: black;
+  width: 100%;
+}
