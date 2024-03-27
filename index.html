@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/site.css">
+  <title>
+    Arizona Home Page
+  </title>
+</head>
+
+<header>
+  <h1 id="para1">A R I Z O N A</h1>
+</header>
+
+<nav id="para2">
+  <a href="flagstaff.html">FLAGSTAFF</a> |
+  <a href="phoenix.html">PHOENIX</a> |
+  <a href="queencreek.html">QUEEN CREEK</a>
+</nav>
+
+<body>
+
+<section>
+  <p class="para1">Arizona is a mesmerizing tapestry of diverse landscapes and natural wonders. The Grand Canyon, one of the world's most iconic geological formations, astonishes with its vastness and intricate rock layers. Endless stretches of desert, adorned with the distinctive saguaro cacti, paint a rugged and arid but remarkably enchanting picture. Sedona's fiery red rocks provide a striking contrast, offering both tranquility and adventure in equal measure. Monument Valley's towering sandstone buttes stand as sentinels of the desert, and the Petrified Forest reveals ancient wonders. With a sun-drenched climate, Arizona invites year-round exploration, from the serene waters of its lakes to the thriving cultural scenes of cities like Phoenix and Tucson. A hub of Native American heritage, Arizona's legacy is woven into its art, traditions, and history. The state's natural splendor, from starlit skies to colorful desert blooms, continues to captivate and inspire all who venture into its extraordinary embrace.</p>
+</section>
+
+<style>
+body {
+  background-image: url('images/sunset.jpg');
+}
+</style>
+
+<aside >
+    <h2 class="listCenter">Top 5 Things to do!</h2>
+<ol>
+  <li>Visit Antelope Canyon</li>
+  <li>Hike the Saguaro National Park</li>
+  <li>Step into the Wild West in Tombstone</li>
+  <li>Visit the Grand Canyon</li>
+  <li>Walk through the Arizona Science Center</li>
+</ol>
+<p>List thanks to <a href="https://travel.usnews.com/features/top-things-to-do-in-arizona" target="_blank">travel.usnews<a/></p>
+</aside>
+
+  <table>
+  <tr>
+    <th>City / Town</th>
+    <th>Avg. Income</th>
+    <th>Avg. Hourly</th>
+  </tr>
+  <tr>
+    <td>Flagstaff</td>
+    <td>$22,381 /yr</td>
+    <td>$19.31</td>
+  </tr>
+  <tr>
+    <td>Phoenix</td>
+    <td>$31,821 /yr</td>
+    <td>$20.87</td>
+  </tr>
+  <tr>
+    <td>Queen Creek</td>
+    <td>$44,092 /yr </td>
+    <td>$19.18</td>
+  </tr>
+</table>
+
+<form>
+  <h2>Enter Below For Weekly Emails!</h2>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="First Name" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" placeholder="Last Name" value=""><br>
+</form>
+
+<form>
+  <label for="email">Email:</label><br>
+  <input type="text" id="email" name="email" placeholder="Email" value=""><br>
+  <label for="emailv">Email (Verify):</label><br>
+  <input type="text" id="emailverify" name="emailv" placeholder="Email (Verify)" value=""><br>
+  <button type="submit" onclick="verifyEmail()">Sign Up</button>
+</form>
+
+<form>
+  <h2>Any questions? We would appreciate it below!</h2>
+  <label for="comment">Questions:</label><br>
+  <input type="text" id="questiontextboxid" name="question" placeholder="Questions" value=""><br>
+</form>
+
+<script>
+function verifyEmail() {
+  // Get form fields
+  const email = document.getElementById("email");
+  const emailverify = document.getElementById("emailverify");
+
+  // Validate fields
+  if (email.value == emailverify.value) {
+    alert("Emails Match! You are now signed up!");
+    // Code to verify email
+  } else {
+    alert("Error, Incorrect Entry!");
+    // Code to show error in verifying
+  }
+}
+</script>
+
+<img src="images/arizonaAlt.jfif" alt="Open Valley in Arizona" width="400" height="300">
+
+<footer>
+  <h2 class="listCenter">Sources and Citations</h2>
+  <p class="listCenter">Wages / Salaries: Economic Research Institute, October 2023, Average Salary in Arizona, https://www.salaryexpert.com</p>
+  <p class="listCenter">Population / Incorporation Dates: Data Commons Organization, Current / 2023, Arizona, https:datacommons.org</p>
+  <p class="listCenter">Top 5 list: U.S. News & World Report L.P., Current / 2023, 28 Top Things to Do in Arizona, travel.usnews.com</p>
+</footer>
+
+</body>
+
+</html>
